@@ -2,7 +2,6 @@
   "name": "wedding-invitation",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kyuhyuk.kr/wedding-invitation/v2",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@stitches/react": "^1.2.8",
@@ -30,6 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://gmjewedding.netlify.app/",
   "eslintConfig": {
     "extends": [
       "react-app",
