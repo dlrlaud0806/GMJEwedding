@@ -1,4 +1,5 @@
 import Gallery from './components/Gallery';
+import Dday from './components/Dday';
 import Greeting from './components//Greeting';
 import TitleLayout from './components//Title';
 import Location from './components//Location';
@@ -27,6 +28,7 @@ function App() {
       >
         Copyright © 2023 Gimyeong Lee
       </Footer>
+      <Dday config={Configs} />
     </main>
   );
 }
