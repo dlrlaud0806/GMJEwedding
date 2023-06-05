@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { styled } from '@stitches/react';
-import { Col, Image, Row } from 'antd';
 import useOnScreen from '../hooks/useOnScreen';
 
 import { useWindowSize } from 'react-use';
