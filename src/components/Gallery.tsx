@@ -9,15 +9,15 @@ const isPortrait = window.matchMedia('(orientation: portrait)').matches;
 
 const Layout = styled('div', {
   width: '100%',
-  padding: isPortrait ? '30% 0% 15% 5%' : '5% 0% 5% 10%',
+  padding: isPortrait ? '5% 5% 5% 5%' : '5% 5% 5% 5%',
 });
 
 const Title = styled('p', {
   color: '#FFFFFF',
   width: '100%',
-  fontSize: isPortrait ? '2.5em' : '3.5em',
+  fontSize: isPortrait ? '1.5em' : '2.5em',
   margin: 0,
-  fontWeight: '500',
+  fontWeight: '100',
 });
 
 type GalleryProps = {
@@ -40,7 +40,7 @@ const Gallery = ({ config }: GalleryProps) => {
       }}
     >
       <Layout>
-        <Title>우리의 아름다운 순간</Title>
+        <Title>사진 앨범</Title>
       </Layout>
       {/* <Row gutter={[16, 16]}>
         {config.galleryImages.map((image, index) => (

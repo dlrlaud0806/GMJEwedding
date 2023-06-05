@@ -6,7 +6,6 @@ import { ConfigsType } from '../configs';
 const isPortrait = window.matchMedia('(orientation: portrait)').matches;
 
 const Section = styled('section', {
-  height: '100%',
   background: '#DADADA',
   overflow: 'hidden',
   position: 'relative',
@@ -37,9 +36,7 @@ const SubTitleLayout = styled('p', {
 const ImageLayout = styled('div', {
   width: '100%',
   background: '#DADADA',
-  bottom: '-5px',
   textAlign: 'center',
-  position: 'absolute',
 });
 
 const Image = styled('img', {
