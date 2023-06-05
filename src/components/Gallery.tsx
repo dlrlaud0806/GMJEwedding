@@ -2,7 +2,6 @@ import { useRef } from 'react';
 import { styled } from '@stitches/react';
 import useOnScreen from '../hooks/useOnScreen';
 
-import { useWindowSize } from 'react-use';
 import { ConfigsType } from '../configs';
 import ImageGallery from 'react-image-gallery';
 
