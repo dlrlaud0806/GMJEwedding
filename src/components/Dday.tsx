@@ -15,10 +15,6 @@ const DdayLayout = styled('div', {
   right: '2%',
 });
 
-const Image = styled('img', {
-  width: isPortrait ? '100%' : '40%',
-});
-
 type DdayProps = {
   config: ConfigsType;
 };
