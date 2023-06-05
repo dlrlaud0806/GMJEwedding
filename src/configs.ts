@@ -7,7 +7,7 @@ import GalleryPhoto4 from './resources/Gallery_Photo_4.png';
 import GalleryPhoto5 from './resources/Gallery_Photo_5.png';
 import GalleryPhoto6 from './resources/Gallery_Photo_6.png';
 import { ReactImageGalleryItem } from 'react-image-gallery';
-import dotenv from 'dotenv';
+import 'dotenv';
 
 const Configs: ConfigsType = {
   url: 'http://gmjewedding.netlify.app',
