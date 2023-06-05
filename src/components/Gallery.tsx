@@ -5,6 +5,7 @@ import useOnScreen from '../hooks/useOnScreen';
 
 import { useWindowSize } from 'react-use';
 import { ConfigsType } from '../configs';
+import ImageGallery from 'react-image-gallery';
 
 const isPortrait = window.matchMedia('(orientation: portrait)').matches;
 
@@ -45,13 +46,14 @@ const Gallery = ({ config }: GalleryProps) => {
       <Layout>
         <Title>우리의 아름다운 순간</Title>
       </Layout>
-      <Row gutter={[16, 16]}>
+      {/* <Row gutter={[16, 16]}>
         {config.galleryImages.map((image, index) => (
           <Col key={index} span={isPortrait ? 6 : 3}>
             <Image width={isPortrait ? width / 4 - 10 : width / 8 - 10} src={image} />
           </Col>
         ))}
-      </Row>
+        </Row> */}
+      <ImageGallery items={config.galleryImages} />
     </section>
   );
 };
