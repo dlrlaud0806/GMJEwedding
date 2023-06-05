@@ -11,8 +11,8 @@ const DdayLayout = styled('div', {
   fontWeight: '500',
   alignItems: 'center',
   position: 'fixed',
-  top: '2%',
-  right: '2%',
+  top: '1%',
+  right: '0%',
 });
 
 type DdayProps = {
@@ -22,7 +22,7 @@ type DdayProps = {
 const Dday = ({ config }: DdayProps) => {
   return (
     <>
-      <DdayLayout> ❤D-100 </DdayLayout>
+      <DdayLayout>❤D-100</DdayLayout>
     </>
   );
 };
