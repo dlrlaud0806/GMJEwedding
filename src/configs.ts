@@ -9,9 +9,9 @@ import GalleryPhoto6 from './resources/Gallery_Photo_6.png';
 import { ReactImageGalleryItem } from 'react-image-gallery';
 
 const Configs: ConfigsType = {
-  url: 'http://localhost:3000',
-  kakaoToken: '카카오톡 API 토큰을 입력해주세요!',
-  kakaoImage: '카카오톡으로 공유할 때 사용되는 대표이미지 URL을 입력해주세요!',
+  url: 'http://gmjewedding.netlify.app',
+  kakaoToken: '${{KAKAO_API_KEY}}',
+  kakaoImage: './resources/Gallery_Photo_1.png',
   weddingDate: '1994년 08월 06일, 토요일 오후 12시 00분',
   weddingLocation: '사랑의교회 언약채플',
   groom: {
