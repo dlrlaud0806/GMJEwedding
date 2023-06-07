@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { styled } from '@stitches/react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
@@ -18,7 +17,6 @@ const Layout = styled('div', {
 });
 
 const CalendarContainer = () => {
-  const mark = '2020-12-02';
   const weddingdate = new Date('2023-12-02');
   return (
     <Layout>
