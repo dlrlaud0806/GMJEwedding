@@ -7,11 +7,10 @@ import GalleryPhoto4 from './resources/Gallery_Photo_4.png';
 import GalleryPhoto5 from './resources/Gallery_Photo_5.png';
 import GalleryPhoto6 from './resources/Gallery_Photo_6.png';
 import { ReactImageGalleryItem } from 'react-image-gallery';
-import 'dotenv';
 
 const Configs: ConfigsType = {
   url: 'http://gmjewedding.netlify.app',
-  kakaoToken: process.env.KAKAO_API_KEY!,
+  kakaoToken: process.env.REACT_APP_KAKAO_API_KEY!,
   kakaoImage: './resources/Gallery_Photo_1.png',
   weddingDate: '1994년 08월 06일, 토요일 오후 12시 00분',
   weddingLocation: '사랑의교회 언약채플',

@@ -16,6 +16,7 @@
     "@types/react-image-gallery": "^1.2.0",
     "antd": "^4.23.0",
     "dotenv": "^16.1.4",
+    "netlify-cli": "^15.3.1",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
     "react-copy-to-clipboard": "^5.1.0",
@@ -32,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://gmjewedding.netlify.app/",
+  "homepage": "http://gmjewedding.netlify.app",
   "eslintConfig": {
     "extends": [
       "react-app",
