@@ -3,6 +3,7 @@ import Dday from './components/Dday';
 import Greeting from './components//Greeting';
 import TitleLayout from './components//Title';
 import Location from './components//Location';
+import MyCalendar from './components//Calendar';
 import CongratulatoryMoney from './components//CongratulatoryMoney';
 import Configs from './configs';
 import Share from './components/Share';
@@ -16,6 +17,7 @@ function App() {
       <TitleLayout config={Configs} />
       <Greeting config={Configs} />
       <Gallery config={Configs} />
+      <MyCalendar config={Configs} />
       <Location config={Configs} />
       <CongratulatoryMoney config={Configs} />
       <Share config={Configs} />
