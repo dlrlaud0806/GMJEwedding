@@ -6,6 +6,7 @@ import GalleryPhoto3 from './resources/Gallery_Photo_3.png';
 import GalleryPhoto4 from './resources/Gallery_Photo_4.png';
 import GalleryPhoto5 from './resources/Gallery_Photo_5.png';
 import GalleryPhoto6 from './resources/Gallery_Photo_6.png';
+import CalendarImage from './resources/December.png';
 import { ReactImageGalleryItem } from 'react-image-gallery';
 
 const Configs: ConfigsType = {
@@ -32,6 +33,7 @@ const Configs: ConfigsType = {
   },
   titleImage: TitleImage,
   locationMapImage: LocationMapImage,
+  calendarImage: CalendarImage,
   galleryImages: [
     { original: GalleryPhoto1, thumbnail: GalleryPhoto1 },
     { original: GalleryPhoto2, thumbnail: GalleryPhoto2 },
@@ -52,6 +54,7 @@ export type ConfigsType = {
   bride: Person;
   titleImage: string;
   locationMapImage: string;
+  calendarImage: string;
   galleryImages: ReactImageGalleryItem[];
 };
 

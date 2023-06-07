@@ -4,7 +4,6 @@ import { Button, message } from 'antd';
 import { MessageFilled, LinkOutlined } from '@ant-design/icons';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import { ConfigsType } from '../configs';
-import CalendarContainer from './CalendarContainer';
 
 declare global {
   interface Window {
@@ -20,6 +19,10 @@ const Section = styled('section', {
   position: 'relative',
 });
 
+const Image = styled('img', {
+  height: '120vw',
+  width: '90vw',
+});
 const Layout = styled('div', {
   width: '100%',
   padding: isPortrait ? '20% 0% 10% 5%' : '5% 0% 5% 10%',
@@ -118,8 +121,8 @@ const MyCalendar = ({ config }: CalendarProps) => {
     <Section>
       <Layout>
         <Title>달력</Title>
+        <Image src={config.calendarImage} />
       </Layout>
-      <CalendarContainer />
       <ButtonGroup>
         <KakaoTalkCalendarButton
           style={{ margin: 8 }}
