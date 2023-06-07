@@ -25,7 +25,7 @@ const MapContainer = () => {
     marker.setMap(map);
   }, []);
 
-  return <div id="map" style={{ width: '100vw', height: '50vh' }} />;
+  return <div id="map" style={{ width: '80%', height: '50%' }} />;
 };
 
 export default MapContainer;
