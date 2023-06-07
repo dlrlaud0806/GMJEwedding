@@ -1,6 +1,13 @@
 import { useRef } from 'react';
 import { styled } from '@stitches/react';
 import { ConfigsType } from '../configs';
+import MapContainer from './MapContainer';
+
+declare global {
+  interface Window {
+    Kakao: any;
+  }
+}
 
 const isPortrait = window.matchMedia('(orientation: portrait)').matches;
 
@@ -52,11 +59,7 @@ const Location = ({ config }: LocationProps) => {
           좌측 입구입니다.
           <br />
           <br />
-          <img
-            style={{ width: isPortrait ? '90%' : '60%' }}
-            src={config.locationMapImage}
-            alt="Wedding Invitation Title Picutre"
-          />
+          <MapContainer />
         </SubTitle>
       </Layout>
     </Section>
