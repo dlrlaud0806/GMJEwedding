@@ -13,7 +13,7 @@ const Configs: ConfigsType = {
   url: 'http://gmjewedding.netlify.app',
   kakaoToken: process.env.REACT_APP_KAKAO_API_KEY!,
   kakaoImage: './resources/Gallery_Photo_1.png',
-  weddingDate: '1994년 08월 06일, 토요일 오후 12시 00분',
+  weddingDate: '2023년 12월 02일, 토요일 오후 12시 00분',
   weddingLocation: '사랑의교회 언약채플',
   groom: {
     name: '이기명',

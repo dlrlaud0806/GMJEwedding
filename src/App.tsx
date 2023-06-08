@@ -10,8 +10,11 @@ import Share from './components/Share';
 import { Layout } from 'antd';
 
 const { Footer } = Layout;
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 function App() {
+  if (isMobile == false) alert('모바일 최적화 페이지입니다.');
+
   return (
     <main style={{ height: '100%' }}>
       <TitleLayout config={Configs} />
