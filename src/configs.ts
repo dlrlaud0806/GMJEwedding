@@ -32,7 +32,6 @@ const Configs: ConfigsType = {
     motherAccountNumber: '○○은행 ***-***-******',
   },
   titleImage: TitleImage,
-  locationMapImage: LocationMapImage,
   calendarImage: CalendarImage,
   galleryImages: [
     { original: GalleryPhoto1, thumbnail: GalleryPhoto1 },
@@ -53,7 +52,6 @@ export type ConfigsType = {
   groom: Person;
   bride: Person;
   titleImage: string;
-  locationMapImage: string;
   calendarImage: string;
   galleryImages: ReactImageGalleryItem[];
 };
